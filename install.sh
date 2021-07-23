@@ -21,4 +21,6 @@ echo "Copying ~/.myvim/color/ to ~/.vim/colors/"
 mkdir -p ~/.vim/colors
 cp ~/.myvim/color/* ~/.vim/colors/
 
-echo "type :PlugInstall and [Enter]. type :qall! to exit" | vim -
+#echo "type :PlugInstall and [Enter]. type :qall! to exit" | vim -
+vim -c PlugInstall -c qa
+echo "Done! have fun ;)"
