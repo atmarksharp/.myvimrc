@@ -34,11 +34,15 @@ Plug 'miyakogi/seiya.vim' " :SeiyaEnable で背景を透明化する
 
 Plug 'rust-lang/rust.vim'
 Plug 'liquidz/vim-iced'
+Plug 'bakpakin/fennel.vim'
 
 Plug 'bakpakin/janet.vim'
 Plug 'luochen1990/rainbow'
 
 Plug 'https://github.com/funatsufumiya/cakelisp.vim'
+
+Plug 'elkasztano/nushell-syntax-vim'
+Plug 'quabug/vim-gdscript'
 
 call plug#end()
 
